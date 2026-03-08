@@ -1,23 +1,28 @@
-#  C Programming for Business Logic & System Security (Phase 1)
+#  C Programming: Business Logic & Offensive Security Foundation
 
-This repository documents my foundational journey in C programming. My approach integrates technical coding skills with business-driven logic and security-conscious practices.
+This repository documents my foundational journey in C. I focus on mastering the language to build a strong base for **Red Team Operations (Payload Development)** while integrating **Business Intelligence** into every logical structure.
 
-##  Weekly Learning & Business Applications
+##  The Dual-Core Objective
 
-###  Part 1: Resource Management & Foundation
-* **Topics:** C Structure, Output, Variables, and Data Types.
-* **Business Insight:** Proper selection of Data Types is equivalent to effective **Resource Allocation**. In high-frequency trading or large-scale financial systems, choosing the right type (int vs double) ensures memory efficiency and system stability.
-* **Implementation:** Standardized output formatting for business reporting.
+1.  **Red Team Foundation:** Mastering Memory Management, Pointers, and Low-level C syntax to eventually develop custom payloads and understand system vulnerabilities (e.g., Buffer Overflows).
+2.  **Business Intelligence:** Applying programming to solve financial problems, automate risk assessment, and understand the economic impact of security breaches.
 
-###  Part 2: Computational Efficiency & Automation
-* **Topics:** User Input, Programmatic Mathematics, and Operators (++, --, Compound).
-* **Business Insight:** Leveraging compound operators for **Automated Calculation** engines, such as tax computation, profit margin analysis, and inventory scaling.
-* **Implementation:** Building interactive terminal tools that process real-time financial data inputs.
+##  Weekly Learning & Strategic Applications
 
-###  Part 3: Strategic Decision-Making Logic
-* **Topics:** If-Else, Ternary Operators, and Logic Gates.
-* **Business Insight:** Implementing **Automated Decision Support Systems (DSS)**. These logical structures form the basis for Credit Scoring, Risk Assessment, and Algorithmic Trading triggers.
-* **Security Perspective:** Mastering logical operators (&&, ||, !) to prevent "Logic Flaws" that could lead to unauthorized access or authentication bypasses in secure systems.
+###  Part 1: Resource Management & Memory Allocation
+* **Topics:** Variables, Data Types, and Program Structure.
+* **Red Team Context:** Understanding how different data types occupy memory—a crucial skill for crafting precise memory-corruption exploits.
+* **Business Insight:** Optimizing resource allocation for high-performance financial systems.
+
+###  Part 2: Computational Automation
+* **Topics:** User Input, Math, and Operators.
+* **Red Team Context:** Automating data processing for reconnaissance or brute-force logic.
+* **Business Insight:** Building automated engines for profit margin analysis and tax computation.
+
+###  Part 3: Decision-Making & Logic Gates
+* **Topics:** If-Else, Ternary Operators, and Logic.
+* **Red Team Context:** Developing conditional logic for payloads (e.g., "If environment == Sandbox, then Exit").
+* **Business Insight:** Creating Automated Decision Support Systems (DSS) for risk assessment and credit scoring.
 
 ---
-*Learning Path: KongRuksiam Tutorial (Phase 1 Completion)*
+*Learning Path: KongRuksiam Tutorial (Phase 1 Completion) | Focus: Red Teaming & Business Strategy*
