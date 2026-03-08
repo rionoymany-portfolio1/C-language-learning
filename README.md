@@ -26,3 +26,32 @@ This repository documents my foundational journey in C. I focus on mastering the
 
 ---
 *Learning Path: KongRuksiam Tutorial (Phase 1 Completion) | Focus: Red Teaming & Business Strategy*
+
+
+
+##  Full Curriculum Roadmap (4-Week Intensive)
+
+I have structured my learning into 4 phases, each building toward advanced exploit development and business automation capabilities.
+
+###  Week 1: Core Fundamentals & Logic (Completed)
+* **Focus:** Syntax, Basic Math, and Decision Making (If-Else).
+* **Strategic Goal:** Understanding program flow and building simple decision support systems.
+
+###  Week 2: Iteration & Efficient Automation (Current)
+* **Focus:** Nested If, Switch Case, and Loops (While, For, Do-While).
+* **Red Team Context:** Understanding repetitive patterns for automated reconnaissance and password spraying logic.
+* **Business Insight:** Automating batch financial calculations and inventory processing.
+
+###  Week 3: Data Management & Memory Patterns
+* **Focus:** Array (1D & 2D), Character Handling (getchar/putchar).
+* **Red Team Context:** Analyzing how data is stored in contiguous memory—a prerequisite for understanding Buffer Overflows.
+* **Business Insight:** Managing datasets, averages, and multi-dimensional financial reporting.
+
+###  Week 4: Modular Programming & Function Scope
+* **Focus:** Functions, Parameters, Return Values, and Variable Scope.
+* **Red Team Context:** Designing modular and reusable payloads; understanding the call stack and scope during execution.
+* **Business Insight:** Building scalable and maintainable business applications by separating concerns.
+
+---
+##  Weekly Projects & Code Samples
+*Check the repository folders for specific implementations for each week.*
