@@ -34,9 +34,11 @@ I have structured my learning into 4 phases, each building toward advanced explo
 * **Business Insight:** Automated batch financial data processing.
 * **Projects:** `atm_simulation.c`, `brute_force_sim.c`, `multi_tax_calc.c`, `multiplication_matrix.c`
 
-###  Week 3: Data Management & Memory Patterns (Upcoming)
-* **Focus:** Array (1D & 2D), Character Handling (getchar/putchar).
-* **Red Team Context:** Analyzing how data is stored in contiguous memory—a prerequisite for Buffer Overflows.
+###  Week 3: Data Management & Memory Patterns (Completed)
+* **Focus:** getchar/putchar, gets/puts, 1D & 2D Arrays.
+* **Red Team Context:** Analyzed how data is stored in contiguous memory blocks. Mastering Arrays is a prerequisite for understanding Buffer Overflows and memory corruption vulnerabilities.
+* **Business Insight:** Developed automated systems for multi-quarter financial analysis and data matrix reporting.
+* **Key Achievement:** Implemented 2D Arrays to represent complex data structures and computed statistical averages for business intelligence.
 
 ###  Week 4: Modular Programming & Function Scope (Upcoming)
 * **Focus:** Functions, Parameters, Return Values, and Scope.
