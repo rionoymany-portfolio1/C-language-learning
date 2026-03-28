@@ -33,9 +33,11 @@
 - **Business Insight:** Multi-quarter financial analysis and data matrix reporting
 - **Key Achievement:** Implemented 2D arrays for complex data structures with statistical averaging
 
-### Week 4: Modular Programming & Function Scope 🔜
-- **Focus:** Functions, parameters, return values, scope
-- **Goal:** Designing clean, reusable code and understanding the call stack
+### Week 4: Modular Programming & Function Scope ✅
+* **Focus:** Functions, Parameters, Return Values, and Global vs. Local Scope.
+* **Red Team Context:** Designed modular and reusable code structures. Understanding Function Scope and the Call Stack is essential for advanced payload development and understanding how exploits interact with system memory.
+* **Business Insight:** Built scalable business logic by separating concerns into dedicated modules (e.g., Tax Modules, Financial Calculators).
+* **Final Achievement:** Successfully completed the 4-week intensive C programming foundation, integrating technical coding with Business Intelligence and Offensive Security mindsets.
 
 ---
 
