@@ -1,23 +1,30 @@
 #include <stdio.h>
 
 /*
- * Project: Business Revenue Analysis
- * Concept: Storing multiple data points in a single Array.
- * Business Logic: Calculating average performance across multiple quarters.
+ * financial_array.c
+ * Concept: 1D arrays for multi-point data storage
+ * Learning focus: Array indexing, accumulation loops, average calculation
+ * Business context: Quarterly revenue analysis and performance benchmarking
  */
-int main() {
-    float revenue[4]; // Array to store 4 quarterly revenue data points
-    float sum = 0, average;
 
-    for(int i = 0; i < 4; i++) {
-        printf("Enter Revenue for Quarter %d: ", i + 1);
+#define QUARTERS 4  // Named constant — easy to scale to 6 or 12 periods
+
+int main() {
+    float revenue[QUARTERS];
+    float sum     = 0.0;
+    float average = 0.0;
+
+    // Collect revenue input for each quarter
+    for (int i = 0; i < QUARTERS; i++) {
+        printf("Enter Revenue for Q%d: $", i + 1);
         scanf("%f", &revenue[i]);
-        sum += revenue[i]; // Accumulate total revenue
+        sum += revenue[i];
     }
 
-    average = sum / 4;
-    printf("\n--- Financial Summary ---\n");
-    printf("Total Annual Revenue: $%.2f\n", sum);
+    average = sum / QUARTERS;
+
+    printf("\n=== Annual Financial Summary ===\n\n");
+    printf("Total Revenue    : $%.2f\n", sum);
     printf("Quarterly Average: $%.2f\n", average);
 
     return 0;
