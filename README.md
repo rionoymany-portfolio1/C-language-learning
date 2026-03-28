@@ -7,9 +7,22 @@
 
 ## The Dual-Core Objective
 
-1. **Systems & Security Foundation:** Mastering memory management, pointers, and low-level C syntax to build a deep understanding of how software works at the hardware level — including how vulnerabilities like buffer overflows arise and why they matter.
+## The Dual-Core Objective
 
-2. **Business Intelligence:** Applying programming logic to financial problems, risk modeling, and understanding the economic impact of software systems.
+**Long-term goal:** Becoming a Red Team Operator with a business intelligence layer —
+understanding not just how systems break, but what the financial and strategic
+consequences of a breach actually mean.
+
+**Current stage:** Building low-level C foundations as prerequisites
+before entering actual security research.
+
+1. **Systems & Security Foundation:** Mastering memory management, pointers,
+   and low-level C syntax to build a deep understanding of how software works
+   at the hardware level — including how vulnerabilities like buffer overflows
+   arise and why they matter.
+
+2. **Business Intelligence:** Applying programming logic to financial problems,
+   risk modeling, and understanding the economic impact of security breaches.
 
 ---
 
@@ -34,10 +47,15 @@
 - **Key Achievement:** Implemented 2D arrays for complex data structures with statistical averaging
 
 ### Week 4: Modular Programming & Function Scope ✅
-* **Focus:** Functions, Parameters, Return Values, and Global vs. Local Scope.
-* **Red Team Context:** Designed modular and reusable code structures. Understanding Function Scope and the Call Stack is essential for advanced payload development and understanding how exploits interact with system memory.
-* **Business Insight:** Built scalable business logic by separating concerns into dedicated modules (e.g., Tax Modules, Financial Calculators).
-* **Final Achievement:** Successfully completed the 4-week intensive C programming foundation, integrating technical coding with Business Intelligence and Offensive Security mindsets.
+- **Focus:** Functions, parameters, return values, global vs. local scope
+- **Systems Thinking:** Understanding the call stack and function scope —
+  foundational knowledge for studying how exploits interact with system memory
+  at a deeper level
+- **Business Insight:** Built scalable business logic by separating concerns
+  into dedicated modules (tax calculator, financial analyzer)
+- **Final Achievement:** Completed 4-week C foundation integrating systems
+  thinking with business intelligence — groundwork for security research
+  and financial technology
 
 ---
 
