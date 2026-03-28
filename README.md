@@ -5,7 +5,6 @@
 
 ---
 
-## The Dual-Core Objective
 
 ## The Dual-Core Objective
 
