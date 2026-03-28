@@ -1,24 +1,27 @@
 #include <stdio.h>
 
 /*
- * Project: Secure Session Confirmation
- * Concept: Low-level character handling for session control.
- * Red Team: Fundamental for understanding buffer input streams.
+ * io_confirmation.c
+ * Concept: Low-level character I/O with getchar() and putchar()
+ * Learning focus: Input stream handling, single-character capture,
+ *                 conditional branching on user input
  */
+
 int main() {
     char confirm;
-    printf("Do you want to execute the strategic payload? (y/n): ");
-    
-    // getchar() captures a single character from the input stream
-    confirm = getchar(); 
-    
+
+    printf("Proceed with scheduled data export? (y/n): ");
+
+    // getchar() reads one character directly from the input stream
+    confirm = getchar();
+
     if (confirm == 'y' || confirm == 'Y') {
-        printf("Action: [AUTHORIZED] ");
-        putchar(confirm); // putchar() displays the character
-        printf("\nInitializing execution sequence...\n");
+        printf("Status: [CONFIRMED] Input received -> ");
+        putchar(confirm); // putchar() writes a single character to stdout
+        printf("\nExport process initiated.\n");
     } else {
-        printf("Action: [ABORTED] Session terminated.\n");
+        printf("Status: [CANCELLED] Operation aborted by user.\n");
     }
-    
+
     return 0;
 }
