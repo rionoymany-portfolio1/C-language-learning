@@ -1,8 +1,12 @@
-#include <stdio.h> // Include standard input-output library for printing
+#include <stdio.h>
+
+/*
+ * hello.c
+ * First program — entry point of this learning journey
+ */
 
 int main() {
-    // Printing the initialization of a professional workspace
-    printf("Rio's Strategic Terminal v1.0\n"); // Display name and version
-    printf("Status: Environment Ready for Financial & Security Analysis\n"); 
-    return 0; // Exit program successfully
+    printf("Rio's Dev Terminal v1.0\n");
+    printf("Status: Systems & Security Foundation — In Progress\n");
+    return 0;
 }
