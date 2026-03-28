@@ -1,21 +1,29 @@
 #include <stdio.h>
 
+/*
+ * max_number.c
+ * Concept: Comparison logic to identify maximum value
+ * Learning focus: if-else if-else chain, integer comparison, edge case handling
+ * Business context: Stock price comparison for investment decision support
+ */
+
 int main() {
     int stock_a, stock_b;
-    printf("Enter Price of Stock A: ");
-    scanf("%d", &stock_a); // Get first data point
-    
-    printf("Enter Price of Stock B: ");
-    scanf("%d", &stock_b); // Get second data point
-    
-    // Comparison logic to identify the dominant value
+
+    printf("Enter Price of Stock A: $");
+    scanf("%d", &stock_a);
+
+    printf("Enter Price of Stock B: $");
+    scanf("%d", &stock_b);
+
+    // Three-case comparison: A > B, B > A, or equal
     if (stock_a > stock_b) {
-        printf("Strategic Pick: Stock A ($%d)\n", stock_a); // Case A is greater
+        printf("Higher Value: Stock A ($%d)\n", stock_a);
     } else if (stock_b > stock_a) {
-        printf("Strategic Pick: Stock B ($%d)\n", stock_b); // Case B is greater
+        printf("Higher Value: Stock B ($%d)\n", stock_b);
     } else {
-        printf("Market Neutral: Both stocks hold equal value.\n"); // Values are equal
+        printf("Equal Value: Both stocks priced at $%d\n", stock_a);
     }
-    
+
     return 0;
 }
