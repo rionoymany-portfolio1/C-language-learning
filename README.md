@@ -1,7 +1,7 @@
 # C Programming: Systems Thinking & Security Foundation
 
-> Age: 14 | Self-directed learner (2026)
-> Building foundational systems knowledge toward security research and financial technology.
+> Age: 14 | Self-directed learner 
+> Building foundational systems knowledge toward security research and financial technology. (2026)
 
 ---
 
